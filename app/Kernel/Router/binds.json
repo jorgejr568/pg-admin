@@ -1,0 +1,10 @@
+[
+    {
+        "bind"  : "db",
+        "model" : "PgAdmin\\Model\\Database"
+    },
+    {
+        "bind"  : "tb",
+        "model" : "PgAdmin\\Model\\Table"
+    }
+]

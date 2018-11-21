@@ -1,0 +1,44 @@
+[
+    {
+        "name" : "index",
+        "method" : "get",
+        "uses" : "IndexController@index",
+        "path" : "/"
+    },
+    {
+        "name" : "db",
+        "method" : "get",
+        "uses" : "DatabaseController@index",
+        "path" : "/db"
+    },
+    {
+        "name" : "db.create",
+        "method" : "get",
+        "uses" : "DatabaseController@create",
+        "path" : "/db/create"
+    },
+    {
+        "name" : "db.edit",
+        "method" : "get",
+        "uses" : "DatabaseController@edit",
+        "path" : "/db/update/:db"
+    },
+    {
+        "name" : "tb.create",
+        "method" : "get",
+        "uses" : "DatabaseController@index",
+        "path" : "/db"
+    },
+    {
+        "name" : "tb.create",
+        "method" : "get",
+        "uses" : "DatabaseController@create",
+        "path" : "/db/:db/tb/create"
+    },
+    {
+        "name" : "tb.edit",
+        "method" : "get",
+        "uses" : "TableController@edit",
+        "path" : "/db/:db/tb/:tb"
+    }
+]
